@@ -1,19 +1,27 @@
-import turtle        # import the turtle library
+# import the turtle library
+import turtle
 
-STEPS = 12           # number of steps along stem
-SIZE = 120           # basic size
-ANG = 55             # angle between stem and branches
-ROT = 4              # extra curl angle
-MIN_SIZE = 3         # minimum branch size
-BRANCH_RATIO = 0.25  # length of branches vs stem
-STEM_RATIO = 0.5     # length of blank stem
+# number of steps along stem
+STEPS = 12
+# basic size
+SIZE = 120
+# angle between stem and branches
+ANG = 55
+# extra curl angle
+ROT = 5
+# minimum branch size
+MIN_SIZE = 3
+# length of branches vs stem
+BRANCH_RATIO = 0.25
+# length of blank stem
+STEM_RATIO = 0.5
 
 # make our turtle, called shelly, from the Turtle class in the turtle library
 shelly = turtle.Turtle()
 # get the screen that shelly lives on
 screen = shelly.getscreen()
 # control how fast the screen updates
-screen.tracer(10, 10)
+screen.tracer(100, 500)
 
 # move shelly the bottom left corner, facing north-east
 # put the pen up while moving to avoid leaving a trail
