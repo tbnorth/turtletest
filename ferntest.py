@@ -26,7 +26,7 @@ screen.tracer(100, 500)
 # move shelly the bottom left corner, facing north-east
 # put the pen up while moving to avoid leaving a trail
 shelly.penup()
-shelly.setposition((-300, -300))
+shelly.setposition((-300, -100))
 shelly.setheading(45)
 shelly.pendown()
 
